@@ -1,3 +1,7 @@
+# House Tracker — v10 polished
+
+Final polish build. Filters are collapsed by default, Grid/List view is explicit and responsive, and light mode has stronger contrast. The weekly source checker can capture an exact listing page OpenGraph image as a source-linked preview and conservatively detect floorplan image tags. Unverified media is never invented.
+
 # House Tracker — Final Discovery Release
 
 Mobile-first UK house-hunting tracker for the 2028–29 search.

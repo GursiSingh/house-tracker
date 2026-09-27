@@ -19,16 +19,96 @@
 
 .photoClickable{cursor:pointer;position:relative}.photoClickable img{width:100%;height:100%;object-fit:cover}.photoOverlay{position:absolute;left:10px;bottom:10px;padding:6px 9px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff;font-size:12px}.mediaPanel{margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.mediaActions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.mediaMini{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.mediaMini .badge{font-size:11px}.photoGallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.photoGallery img{width:100%;border-radius:12px;max-height:360px;object-fit:contain;background:#111}@media(max-width:650px){.photoGallery{grid-template-columns:1fr}.photoOverlay{font-size:11px}}
 .freshness{font-size:11px;color:var(--muted);margin-top:5px}.offlineBar{position:fixed;left:12px;bottom:12px;z-index:90;background:#17233b;border:1px solid var(--line);padding:8px 11px;border-radius:10px;font-size:12px;box-shadow:var(--shadow)}
+
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
 </style>
 
 <style id="v7-polish">
 .evidence{display:flex;gap:6px;flex-wrap:wrap;padding:0 16px 10px}.evidence .badge{font-size:10px}.quickbar{display:flex;gap:7px;overflow:auto;padding:2px 0 10px}.quickbar .chip{flex:0 0 auto}.photoOverlay{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(4,8,15,.82);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:6px 8px;font-size:11px;color:#fff}.photoClickable{cursor:pointer}.verification{border:1px solid var(--line);border-radius:14px;padding:12px;background:linear-gradient(145deg,var(--panel),var(--panel2));margin:12px 0}.verificationGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.verifyItem{font-size:11px;padding:8px;border-radius:10px;background:#0a1120;border:1px solid var(--line)}.light .verifyItem{background:#f5f7fb}.verifyItem b{display:block;color:var(--text);margin-bottom:2px}.verifyItem span{color:var(--muted)}@media(max-width:700px){.verificationGrid{grid-template-columns:1fr 1fr}.grid.list .card{display:flex}}
+
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
 </style>
-<style id="v8-quality">.qualityCard{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:14px}.qualityCard h3{margin:0 0 7px}.qualityList{display:grid;gap:7px}.qualityItem{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:8px;background:#0a1120;font-size:12px}.light .qualityItem{background:#f5f7fb}.qualityItem b{display:block}.qualityItem span{color:var(--muted)}.historyTable{width:100%;border-collapse:collapse;min-width:700px}.historyTable th,.historyTable td{padding:9px;border-bottom:1px solid var(--line);text-align:left}.historyTable th{background:var(--panel2)}.backupHint{font-size:11px;color:var(--muted);margin-top:5px}.risklinks{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}</style>
+<style id="v8-quality">.qualityCard{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:14px}.qualityCard h3{margin:0 0 7px}.qualityList{display:grid;gap:7px}.qualityItem{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:8px;background:#0a1120;font-size:12px}.light .qualityItem{background:#f5f7fb}.qualityItem b{display:block}.qualityItem span{color:var(--muted)}.historyTable{width:100%;border-collapse:collapse;min-width:700px}.historyTable th,.historyTable td{padding:9px;border-bottom:1px solid var(--line);text-align:left}.historyTable th{background:var(--panel2)}.backupHint{font-size:11px;color:var(--muted);margin-top:5px}.risklinks{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
+</style>
 <style>
 #personalHubTab{display:none}.hubGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.hubCard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px}.hubCard b{font-size:24px;display:block}.hubCard span{font-size:12px;color:var(--muted)}.hubSection{margin:18px 0}.hubTable{width:100%;border-collapse:collapse}.hubTable th,.hubTable td{padding:9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.hubTable th{color:var(--muted);font-size:12px}.hubActions{display:flex;gap:7px;flex-wrap:wrap}.ratingGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.ratingRow{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}.projectRow{display:grid;grid-template-columns:1.5fr .7fr .7fr auto;gap:7px;align-items:center;margin:7px 0}.hubModal{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:90;display:none;align-items:flex-end;justify-content:center;padding:12px}.hubModal.open{display:flex}.hubDialog{width:min(100%,900px);max-height:92vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px}.hubDialog h2{margin-top:0}.diff{background:#1b2a4b;border-color:#4666a2}.priorityMust{color:#ffb9c2}.priorityStrong{color:#ffe2a0}.priorityBonus{color:#bff9ea}.timeline{border-left:2px solid var(--line);padding-left:14px}.timelineItem{position:relative;margin:0 0 14px}.timelineItem:before{content:'';position:absolute;left:-21px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
 @media(max-width:900px){.hubGrid{grid-template-columns:repeat(2,1fr)}.projectRow{grid-template-columns:1fr 90px 90px auto}}
 @media(max-width:600px){.hubGrid{grid-template-columns:1fr 1fr}.ratingGrid{grid-template-columns:1fr}.projectRow{grid-template-columns:1fr 80px auto}.hubTable{font-size:12px}}
+
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -38,7 +118,7 @@
 <section class="dashboard"><div class="dashcard"><h2>📊 My search dashboard</h2><div class="dashgrid"><div class="dashmini"><b id="dashTracked">0</b><span>tracked homes</span></div><div class="dashmini"><b id="dashFavs">0</b><span>favourites</span></div><div class="dashmini"><b id="dashShortlist">0</b><span>shortlisted</span></div><div class="dashmini"><b id="dashViewings">0</b><span>viewings booked</span></div><div class="dashmini"><b id="dashNeedsCheck">0</b><span>need checking</span></div></div><div class="quickactions" style="margin-top:11px"><button class="btn small" id="dashFavourites">Open favourites</button><button class="btn small" id="dashShortlistBtn">Open shortlist</button><button class="btn small" id="dashCompare">Compare shortlist</button><button class="btn small" id="dashRecent">Recently viewed</button></div></div><div class="dashcard"><h3>⚡ Search shortcuts</h3><div class="small" style="margin-bottom:8px">Your most-used searches can be saved and reused.</div><div class="quickactions"><button class="btn small primary" id="saveCurrentSearch">Save current search</button><button class="btn small" id="resetSearches">Reset filters</button></div><div id="savedSearches" style="display:grid;gap:7px;margin-top:10px"></div></div></section>
 
 <section id="homesTab">
-<section class="toolbar"><div class="toolbarHead"><div><b>Filters</b><div class="small" id="filterSummary">All tracked homes</div></div><div class="grow"></div><button class="btn small ghost" id="clearFilters">Clear</button><button class="btn small" id="toggleFilters">Hide filters</button></div><div class="filtersBody" id="filtersBody">
+<section class="toolbar"><div class="toolbarHead"><div><b>Filters</b><div class="small" id="filterSummary">All tracked homes</div></div><div class="grow"></div><button class="btn small ghost" id="clearFilters">Clear</button><button class="btn small" id="toggleFilters" aria-expanded="false">Show filters</button></div><div class="filtersBody collapsed" id="filtersBody">
 <div class="filters"><input class="field search" id="search" placeholder="Search area, road, development…"><select class="field" id="price"><option value="">Any price</option><option value="250000">≤ £250k</option><option value="275000">≤ £275k</option><option value="300000">≤ £300k</option><option value="325000">≤ £325k</option><option value="350000">≤ £350k</option></select><select class="field" id="beds"><option value="">Beds</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option></select><select class="field" id="type"><option value="">Type</option><option>Detached</option><option>Semi-detached</option><option>Townhouse</option><option>Detached dormer bungalow</option></select><select class="field" id="garden"><option value="">Garden</option><option value="green">🟢 Strong</option><option value="amber">🟡 Verify</option><option value="red">🔴 Poor</option></select><select class="field" id="status"><option value="">Status</option><option value="active">Active</option><option value="development">Development</option><option value="new">New</option></select><select class="field" id="tierFilter"><option value="">Shortlist tier</option><option value="top">⭐ Top shortlist</option><option value="maybe">🟡 Maybe</option><option value="rejected">🔴 Passed</option></select></div>
 <div class="filterrow"><label class="check"><input id="favOnly" type="checkbox"> Favourites</label><label class="check"><input id="garage" type="checkbox"> Garage</label><label class="check"><input id="solar" type="checkbox"> Solar</label><label class="check"><input id="ev" type="checkbox"> EV</label><label class="check"><input id="freehold" type="checkbox"> Freehold</label><label class="check"><input id="walsall" type="checkbox"> Walsall priority</label><div class="grow"></div><select class="field" id="sort"><option value="match">Sort: match to my criteria</option><option value="priceAsc">Price: low → high</option><option value="priceDesc">Price: high → low</option><option value="beds">Bedrooms</option><option value="garden">Garden</option><option value="recent">Recently viewed</option></select></div><div class="chips" id="chips"></div></div></section>
 
@@ -111,9 +191,9 @@ function filtered(){const f=filters();let a=allData().filter(p=>{if(state._short
 const text=(p.name+' '+p.location+' '+(p.developer||'')+' '+(p.notes||'')).toLowerCase();if(f.q&&!text.includes(f.q))return false;if(p.price&&p.price>f.price)return false;if(f.beds&&p.beds<f.beds)return false;if(f.type&&p.type!==f.type)return false;if(f.garden&&p.features?.garden!==f.garden)return false;if(f.status&&!statusMatches(p,f.status))return false;if(f.tier&&(state.tier[p.id]||'')!==f.tier)return false;if(f.fav&&!state.favs.has(p.id))return false;if(f.garage&&!p.features?.garage)return false;if(f.solar&&!p.features?.solar)return false;if(f.ev&&!p.features?.ev)return false;if(f.freehold&&p.tenure!=='Freehold')return false;if(f.walsall&&priority(p)<3)return false;if(state._reducedOnly&&!p.reduced)return false;return true});if(f.sort==='priceAsc')a.sort((x,y)=>(x.price??1e9)-(y.price??1e9));else if(f.sort==='priceDesc')a.sort((x,y)=>(y.price??-1)-(x.price??-1));else if(f.sort==='beds')a.sort((x,y)=>(y.beds||0)-(x.beds||0));else if(f.sort==='garden')a.sort((x,y)=>(y.features?.garden==='green')-(x.features?.garden==='green'));else if(f.sort==='recent')a.sort((x,y)=>(state.recent.indexOf(y.id)+1e3)-(state.recent.indexOf(x.id)+1e3));else a.sort((x,y)=>settingsMatch(y)-settingsMatch(x)||priority(y)-priority(x));return a}
 function evidenceStatus(p){const m=media(p),e=[];e.push(['Photos',m.photos.length>0,m.photos.length?`${m.photos.length} verified`:'Listing gallery']);e.push(['Floorplan',!!m.floorplan?.url,m.floorplan?.url?'Exact image':'Listing']);e.push(['Plot plan',!!m.plotplan?.url,m.plotplan?.url?'Verified':'Not found']);e.push(['Garden',!!p.garden&&p.garden!=='Not verified',p.garden&&p.garden!=='Not verified'?'Source checked':'Needs checking']);e.push(['Tenure',!!p.tenure&&p.tenure!=='Unknown',p.tenure||'Needs checking']);e.push(['Parking',!!p.parking&&p.parking!=='Not verified',p.parking||'Needs checking']);return e}function verificationLevel(p){const e=evidenceStatus(p),score=e.filter(x=>x[1]).length;if(score>=5)return ['Fully checked','good'];if(score>=3)return ['Partially checked','warn'];return ['Needs checking','red']}function verificationPanel(p){const v=verificationLevel(p);return `<div class="verification"><div class="badges"><span class="badge ${v[1]}">${v[0]}</span><span class="small">Evidence status</span></div><div class="verificationGrid">${evidenceStatus(p).map(x=>`<div class="verifyItem"><b>${x[1]?'✓':'—'} ${x[0]}</b><span>${esc(x[2])}</span></div>`).join('')}</div></div>`}
 function feature(label,ok){return `<div class="feat">${ok?'✓':'—'} <b>${label}</b></div>`}
-function media(p){const m=p.media||{};return {photos:Array.isArray(m.photos)?m.photos:(Array.isArray(p.images)?p.images:[]),galleryUrl:m.galleryUrl||p.link||'',floorplan:m.floorplan||null,plotplan:m.plotplan||null}}
+function media(p){const m=p.media||{};const photos=Array.isArray(m.photos)&&m.photos.length?m.photos:(Array.isArray(p.images)&&p.images.length?p.images:(p.tracking?.previewImage?[p.tracking.previewImage]:[]));return {photos,galleryUrl:m.galleryUrl||p.link||'',floorplan:m.floorplan||null,plotplan:m.plotplan||null}}
 function mediaBadge(ok,label){return `<span class="badge ${ok?'good':'warn'}">${ok?'✓':'—'} ${label}</span>`}
-function photoBlock(p){const m=media(p), imgs=m.photos; if(imgs.length)return `<div class="photo photoClickable" data-gallery="${esc(p.id)}"><img src="${esc(imgs[0])}" alt="${esc(p.name)} verified listing photo" loading="lazy"><div class="photoOverlay">📷 ${imgs.length} verified photo${imgs.length===1?'':'s'} · Tap to view</div></div>`;return `<div class="photo"><div class="photoFallback">🏠<b>No embedded photo yet</b><span>The tracker has not verified a direct image URL for this property. Use the exact listing gallery instead of a generic image.</span></div><a class="photoLink" href="${esc(m.galleryUrl||'#')}" target="_blank" rel="noopener">Open exact listing photos ↗</a></div>`}
+function photoBlock(p){const m=media(p), imgs=m.photos; if(imgs.length)return `<div class="photo photoClickable" data-gallery="${esc(p.id)}"><img src="${esc(imgs[0])}" alt="${esc(p.name)} listing photo" loading="lazy" referrerpolicy="no-referrer"><div class="photoOverlay">📷 ${imgs.length} verified photo${imgs.length===1?'':'s'} · Tap to view</div></div>`;return `<div class="photo"><div class="photoFallback">🏠<b>No embedded photo yet</b><span>The tracker has not verified a direct image URL for this property. Use the exact listing gallery instead of a generic image.</span></div><a class="photoLink" href="${esc(m.galleryUrl||'#')}" target="_blank" rel="noopener">Open exact listing photos ↗</a></div>`}
 function mediaPanel(p){const m=media(p);return `<div class="mediaPanel"><div class="badges">${mediaBadge(m.photos.length>0,'Photos')}${mediaBadge(!!m.floorplan?.url,'Exact floorplan')}${mediaBadge(!!m.plotplan?.url,'Plot/site plan')}</div><div class="mediaActions">${m.floorplan?.url?`<button class="btn" data-plan="${esc(p.id)}">📐 View floorplan</button>`:`<a class="btn" href="${esc(m.galleryUrl||p.link||'#')}" target="_blank" rel="noopener">📐 Find floorplan on listing ↗</a>`}${m.plotplan?.url?`<button class="btn" data-plot="${esc(p.id)}">🗺 View plot plan</button>`:''}${m.galleryUrl?`<a class="btn" href="${esc(m.galleryUrl)}" target="_blank" rel="noopener">📷 Listing gallery ↗</a>`:''}</div><div class="small">${esc(m.photos.length? 'Embedded photos are marked verified in the property data.':'No direct image URL has been verified yet — nothing generic is substituted.')}</div></div>`}
 function personalBadge(p){const st=state.status[p.id];if(!st)return '';const cls=st==='Offer'?'good':st==='Passed'?'red':'blue';return `<span class="badge ${cls}">${esc(st)}</span>`}
 function card(p){const fav=state.favs.has(p.id),cmp=state.compare.has(p.id),match=settingsMatch(p);return `<article class="card">${photoBlock(p)}<div class="cardhead"><div class="badges">${tierBadge(p)}${personalBadge(p)}<span class="badge ${p.statusClass==='development'?'blue':'warn'}">${esc(p.status||'Tracked')}</span>${p.reduced?'<span class="badge good">Price reduced</span>':''}<span class="badge">${esc(p.type||'')}</span>${p.features?.garden==='green'?'<span class="badge good">🟢 Garden</span>':''}</div><h3 class="title">${esc(p.name)}</h3><div class="loc">${esc(p.location)}</div><div class="price">${esc(p.priceLabel||('£'+(p.price||'')))}</div><div class="meta"><span>🛏 ${p.beds??'?'}</span><span>🛁 ${p.baths??'?'}</span><span>🏷 ${esc(p.tenure||'')}</span></div><div style="margin-top:10px"><div class="small">Match to my settings: <b>${match}%</b></div><div class="progress"><i style="width:${match}%"></i></div></div></div><div class="mediaMini">${(()=>{const m=media(p);return mediaBadge(m.photos.length>0,'Photos')+mediaBadge(!!m.floorplan?.url,'Floorplan')+mediaBadge(!!m.plotplan?.url,'Plot plan')})()}</div><div class="evidence">${(()=>{const v=verificationLevel(p);return `<span class="badge ${v[1]}">${v[0]}</span>`})()}</div><div class="features">${feature('Garage',p.features?.garage)}${feature('Driveway',p.features?.driveway)}${feature('Solar',p.features?.solar)}${feature('EV',p.features?.ev)}${feature('EPC '+(p.features?.epc||'?'),!!p.features?.epc&&p.features.epc!=='Unknown')}${feature('Heat pump',p.features?.heatPump)}</div><div class="body"><div class="line"><strong>Plan:</strong> ${money(purchasePlan(p).cash)} cash needed* · ${money(purchasePlan(p).monthly)}/mo mortgage*</div><div class="line"><strong>Garden:</strong> ${esc(p.garden||'Not verified')}</div><div class="line"><strong>Parking:</strong> ${esc(p.parking||'Not verified')}</div><div class="line"><strong>Commute:</strong> ${esc(p.commute||'Not verified')}</div></div><div class="cardfoot"><button class="btn star" data-fav="${esc(p.id)}" title="Favourite">${fav?'★':'☆'}</button><button class="btn ${cmp?'primary':''}" data-cmp="${esc(p.id)}">${cmp?'✓ Compared':'Compare'}</button><button class="btn primary" data-open="${esc(p.id)}">Details</button></div></article>`}
@@ -146,7 +226,7 @@ function exportBackup(){const blob=new Blob([JSON.stringify({favs:[...state.favs
 function loadSettings(){const s=state.settings;$('#themeSetting').value=s.theme;$('#accentSetting').value=s.accent||'#7c9cff';$('#densitySetting').value=s.density;$('#viewSetting').value=s.view;$('#maxPriceSetting').value=s.maxPrice;$('#minBedsSetting').value=s.minBeds;['mustGarage','mustSolar','mustEv','mustFreehold','mustGarden'].forEach(id=>$('#'+id).checked=!!s[id]);['Price','Garden','Location','Beds','Parking','Energy'].forEach(k=>$('#weight'+k).value=s.weights[k.toLowerCase()]||0);$('#depositPct').value=s.depositPct;$('#mortgageRate').value=s.mortgageRate;$('#mortgageYears').value=s.mortgageYears;$('#sdltEstimate').value=s.sdltEstimate;$('#legalFees').value=s.legalFees;$('#movingCosts').value=s.movingCosts;$('#initialWorks').value=s.initialWorks;$('#backupHint').textContent=state.lastBackupAt?'Last backup: '+new Date(state.lastBackupAt).toLocaleString('en-GB'):'No backup recorded on this device.'}
 ['search','price','beds','type','garden','status','favOnly','garage','solar','ev','freehold','walsall','sort'].forEach(id=>$('#'+id).addEventListener('input',()=>{persistFilterState();renderHomes()}));
 $('#clearFilters').onclick=()=>{state._shortlistMode=false;$('#search').value='';['price','beds','type','garden','status','tierFilter'].forEach(id=>$('#'+id).value='');['favOnly','garage','solar','ev','freehold','walsall'].forEach(id=>$('#'+id).checked=false);$('#sort').value='match';persistFilterState();renderHomes()};
-$('#toggleFilters').onclick=()=>{const body=$('#filtersBody');const c=body.classList.toggle('collapsed');$('#toggleFilters').textContent=c?'Show filters':'Hide filters'};
+$('#toggleFilters').onclick=()=>{const body=$('#filtersBody');const c=body.classList.toggle('collapsed');$('#toggleFilters').textContent=c?'Show filters':'Hide filters';$('#toggleFilters').setAttribute('aria-expanded',String(!c))};
 $('#gridView').onclick=()=>{state.settings.view='grid';persist();applySettings()};$('#listView').onclick=()=>{state.settings.view='list';persist();applySettings()};
 $('#favBtn').onclick=()=>{setTab('favourites')};$('#compareBtn').onclick=()=>setTab('compare');$('#favCompare').onclick=()=>{allData().filter(p=>state.favs.has(p.id)).slice(0,4).forEach(p=>state.compare.add(p.id));persist();renderAll();setTab('compare')};$('#clearCompare').onclick=()=>{state.compare.clear();persist();renderAll();renderCompare()};$('#exportCompare').onclick=exportCompareCsv;$('#printCompare').onclick=()=>{if(!state.compare.size)return toast('Nothing selected to print');window.print()};$('#drawerCompare').onclick=()=>setTab('compare');$('#drawerClear').onclick=()=>{state.compare.clear();persist();renderAll()};
 $$('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
@@ -159,7 +239,27 @@ $('#resetLocal').onclick=()=>{if(!confirm('Reset all personal tracker data on th
 let editingId=null;$('#addPropertyBtn').onclick=()=>{$('#propertyEditor').classList.add('open');editingId=null;['epName','epLocation','epPrice','epBeds','epBaths','epType','epLink','epNotes'].forEach(id=>$('#'+id).value='')};$('#editorClose').onclick=()=>$('#propertyEditor').classList.remove('open');$('#cancelProperty').onclick=()=>$('#propertyEditor').classList.remove('open');$('#propertyEditor').onclick=e=>{if(e.target.id==='propertyEditor')$('#propertyEditor').classList.remove('open')};$('#saveProperty').onclick=()=>{const p={id:'manual-'+Date.now(),name:$('#epName').value.trim()||'Untitled property',location:$('#epLocation').value.trim(),price:+$('#epPrice').value||0,priceLabel:$('#epPrice').value?'£'+Number($('#epPrice').value).toLocaleString('en-GB'):'Price not set',beds:+$('#epBeds').value||0,baths:+$('#epBaths').value||0,type:$('#epType').value.trim()||'Unknown',tenure:'Unknown',status:'User added',statusClass:'new',link:$('#epLink').value.trim(),notes:$('#epNotes').value.trim(),garden:'Not verified',parking:'Not verified',plot:'Open the listing for floorplan.',conversion:'Not assessed',commute:'Not assessed',crime:'Not checked',features:{garage:false,driveway:false,solar:false,ev:false,heatPump:false,epc:'Unknown'},images:[],media:{photos:[],galleryUrl:$('#epLink').value.trim(),floorplan:null,plotplan:null}};state.manual.push(p);persist();$('#propertyEditor').classList.remove('open');renderAll();toast('Property added locally')};
 $$('[data-area]').forEach(b=>b.onclick=()=>openMarket(b.dataset.area));$$('[data-portal]').forEach(b=>b.onclick=()=>window.open(marketUrl(b.dataset.portal),'_blank'));$('#newbuildSearch').onclick=()=>openMarket('Walsall',true);$('#devSearch').onclick=()=>openMarket('Walsall',true);
 document.addEventListener('click',e=>{const q=e.target.closest('[data-quick]');if(q){applyQuick(q.dataset.quick);return}const g=e.target.closest('[data-gallery]');if(g){const p=allData().find(x=>x.id===g.dataset.gallery);if(p)openMedia(p,'photos')}const pl=e.target.closest('[data-plan]');if(pl){const p=allData().find(x=>x.id===pl.dataset.plan);if(p)openMedia(p,'floorplan')}const pp=e.target.closest('[data-plot]');if(pp){const p=allData().find(x=>x.id===pp.dataset.plot);if(p)openMedia(p,'plotplan')}});
-function openMedia(p,type){const m=media(p);let items=m.photos;let title='Verified listing photos';if(type==='floorplan'){items=m.floorplan?.url?[m.floorplan.url]:[];title=m.floorplan?.label||'Exact floorplan'}if(type==='plotplan'){items=m.plotplan?.url?[m.plotplan.url]:[];title=m.plotplan?.label||'Plot / site plan'}if(!items.length)return toast('No verified image is available for this item');const win=window.open('','_blank');if(!win)return toast('Allow pop-ups to view the image');win.document.write(`<title>${esc(title)}</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;background:#111;color:#fff;font:16px system-ui;text-align:center}img{max-width:100vw;max-height:92vh;object-fit:contain;margin-top:4vh}p{margin:10px}</style>${items.map(u=>`<img src="${esc(u)}" alt="${esc(title)}">`).join('')}<p>${esc(title)} · ${esc(p.name)}</p>`);win.document.close()}
+function openMedia(p,type){const m=media(p);let items=m.photos;let title='Verified listing photos';if(type==='floorplan'){items=m.floorplan?.url?[m.floorplan.url]:[];title=m.floorplan?.label||'Exact floorplan'}if(type==='plotplan'){items=m.plotplan?.url?[m.plotplan.url]:[];title=m.plotplan?.label||'Plot / site plan'}if(!items.length)return toast('No verified image is available for this item');const win=window.open('','_blank');if(!win)return toast('Allow pop-ups to view the image');win.document.write(`<title>${esc(title)}</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;background:#111;color:#fff;font:16px system-ui;text-align:center}img{max-width:100vw;max-height:92vh;object-fit:contain;margin-top:4vh}p{margin:10px}
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
+</style>${items.map(u=>`<img src="${esc(u)}" alt="${esc(title)}">`).join('')}<p>${esc(title)} · ${esc(p.name)}</p>`);win.document.close()}
 $('#modalClose').onclick=()=>$('#modal').classList.remove('open');$('#modal').onclick=e=>{if(e.target.id==='modal')$('#modal').classList.remove('open')};document.addEventListener('keydown',e=>{if(e.key==='Escape'){['modal','settingsModal','propertyEditor'].forEach(id=>$('#'+id).classList.remove('open'))}if(e.key==='/'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){e.preventDefault();$('#search').focus()}if(e.key==='f'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){setTab('favourites')}if(e.key==='c'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){setTab('compare')}if(e.key==='h'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){setTab('homes')}});
 fetch('properties.json').then(r=>{if(!r.ok)throw Error('properties.json could not be loaded');return r.json()}).then(d=>{state.data=d;savePriceSnapshot();renderAll();renderCompare();loadSettings();if(state.filterState)applyFilterState(state.filterState)}).catch(e=>{$('#results').innerHTML=`<div class="empty" style="grid-column:1/-1"><b>Could not load property data.</b><br>Make sure <code>properties.json</code> is in the same folder as <code>index.html</code>.<br><span class="small">${esc(e.message)}</span></div>`});
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
@@ -196,8 +296,48 @@ function updateConnectionStatus(){const el=$('#connectionStatus');if(!el)return;
  function total(){let t=0;document.querySelectorAll('[data-proj-cost]').forEach(x=>t+=+x.value||0);$('#hmTotal').textContent=`Planned project total: ${money(t)}`};$('#hmProjects').oninput=total;total();
  $('#hmSnapshot').onclick=()=>snapshot(p);
  $('#hubModal').classList.add('open') }
- function snapshot(p){const r=ratings(p.id),projects=state.projects[p.id]||[],pc=purchasePlan(p),pt=projects.reduce((a,x)=>a+(+x.cost||0),0),total=(+p.price||0)+pc.extras+pt;const w=window.open('','_blank');if(!w)return toast('Allow pop-ups for snapshot');w.document.write(`<title>${esc(p.name)} — House Tracker snapshot</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font:15px system-ui;max-width:850px;margin:30px auto;padding:20px;color:#172038}h1{margin-bottom:4px}.box{border:1px solid #d9dfeb;border-radius:14px;padding:14px;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.tag{display:inline-block;background:#eef2f8;border-radius:999px;padding:5px 8px;margin:3px}button{padding:9px;border:1px solid #ccd4e2;background:#fff;border-radius:9px}@media print{button{display:none}}</style><h1>${esc(p.name)}</h1><div>${esc(p.location||'')} · <b>${esc(p.priceLabel||'')}</b> · ${p.beds} bed · ${p.baths} bath</div><div class="box"><b>Match</b> ${settingsMatch(p)}%<br>${priorities()}</div><div class="box"><h3>Verified / tracked</h3><div class="grid">${evidenceStatus(p).map(x=>`<div>${x[1]?'✓':'—'} ${esc(x[0])}: ${esc(x[2])}</div>`).join('')}</div></div><div class="box"><h3>Your ratings</h3>${Object.entries(r).map(([k,v])=>`<div>${esc(k)}: ${v?stars(v):'Not rated'}</div>`).join('')}</div><div class="box"><h3>Costs</h3>Purchase price: ${money(p.price)}<br>Cash needed under current assumptions: ${money(pc.cash)}<br>Planned projects: ${money(pt)}<br><b>Personal projected total: ${money(total)}</b></div><div class="box"><h3>Notes</h3>${esc(state.notes[p.id]||'None')}<br><b>Pros:</b> ${esc(state.pros[p.id]||'—')}<br><b>Concerns:</b> ${esc(state.cons[p.id]||'—')}</div><p><a href="${esc(p.link||'#')}">Original listing ↗</a></p><button onclick="print()">Print / save PDF</button>`);w.document.close()}
- function compareDifferences(){const a=[...state.compare].map(id=>P(id)).filter(Boolean);if(a.length<2)return toast('Select at least 2 properties');const fields=[['Price',p=>p.priceLabel],['Beds',p=>p.beds],['Baths',p=>p.baths],['Type',p=>p.type],['Tenure',p=>p.tenure],['Garage',p=>p.features?.garage?'Yes':'No'],['Driveway',p=>p.features?.driveway?'Yes':'No'],['Solar',p=>p.features?.solar?'Yes':'No'],['EV',p=>p.features?.ev?'Yes':'No'],['Garden',p=>p.garden||'Not verified'],['Parking',p=>p.parking||'Not verified'],['Commute',p=>p.commute||'Not verified']];const diff=fields.filter(([k,f])=>new Set(a.map(f)).size>1);const w=window.open('','_blank');if(!w)return;w.document.write(`<title>House Tracker — differences</title><style>body{font:15px system-ui;max-width:1000px;margin:20px auto;padding:15px}table{border-collapse:collapse;width:100%}td,th{padding:9px;border-bottom:1px solid #ddd;text-align:left}.diff{background:#eef2ff}</style><h1>Differences only</h1><table><tr><th>Feature</th>${a.map(p=>`<th>${esc(p.name)}</th>`).join('')}</tr>${diff.map(([k,f])=>`<tr><th>${k}</th>${a.map(p=>`<td class="diff">${esc(f(p))}</td>`).join('')}</tr>`).join('')}</table>`);w.document.close()}
+ function snapshot(p){const r=ratings(p.id),projects=state.projects[p.id]||[],pc=purchasePlan(p),pt=projects.reduce((a,x)=>a+(+x.cost||0),0),total=(+p.price||0)+pc.extras+pt;const w=window.open('','_blank');if(!w)return toast('Allow pop-ups for snapshot');w.document.write(`<title>${esc(p.name)} — House Tracker snapshot</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font:15px system-ui;max-width:850px;margin:30px auto;padding:20px;color:#172038}h1{margin-bottom:4px}.box{border:1px solid #d9dfeb;border-radius:14px;padding:14px;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.tag{display:inline-block;background:#eef2f8;border-radius:999px;padding:5px 8px;margin:3px}button{padding:9px;border:1px solid #ccd4e2;background:#fff;border-radius:9px}@media print{button{display:none}}
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
+</style><h1>${esc(p.name)}</h1><div>${esc(p.location||'')} · <b>${esc(p.priceLabel||'')}</b> · ${p.beds} bed · ${p.baths} bath</div><div class="box"><b>Match</b> ${settingsMatch(p)}%<br>${priorities()}</div><div class="box"><h3>Verified / tracked</h3><div class="grid">${evidenceStatus(p).map(x=>`<div>${x[1]?'✓':'—'} ${esc(x[0])}: ${esc(x[2])}</div>`).join('')}</div></div><div class="box"><h3>Your ratings</h3>${Object.entries(r).map(([k,v])=>`<div>${esc(k)}: ${v?stars(v):'Not rated'}</div>`).join('')}</div><div class="box"><h3>Costs</h3>Purchase price: ${money(p.price)}<br>Cash needed under current assumptions: ${money(pc.cash)}<br>Planned projects: ${money(pt)}<br><b>Personal projected total: ${money(total)}</b></div><div class="box"><h3>Notes</h3>${esc(state.notes[p.id]||'None')}<br><b>Pros:</b> ${esc(state.pros[p.id]||'—')}<br><b>Concerns:</b> ${esc(state.cons[p.id]||'—')}</div><p><a href="${esc(p.link||'#')}">Original listing ↗</a></p><button onclick="print()">Print / save PDF</button>`);w.document.close()}
+ function compareDifferences(){const a=[...state.compare].map(id=>P(id)).filter(Boolean);if(a.length<2)return toast('Select at least 2 properties');const fields=[['Price',p=>p.priceLabel],['Beds',p=>p.beds],['Baths',p=>p.baths],['Type',p=>p.type],['Tenure',p=>p.tenure],['Garage',p=>p.features?.garage?'Yes':'No'],['Driveway',p=>p.features?.driveway?'Yes':'No'],['Solar',p=>p.features?.solar?'Yes':'No'],['EV',p=>p.features?.ev?'Yes':'No'],['Garden',p=>p.garden||'Not verified'],['Parking',p=>p.parking||'Not verified'],['Commute',p=>p.commute||'Not verified']];const diff=fields.filter(([k,f])=>new Set(a.map(f)).size>1);const w=window.open('','_blank');if(!w)return;w.document.write(`<title>House Tracker — differences</title><style>body{font:15px system-ui;max-width:1000px;margin:20px auto;padding:15px}table{border-collapse:collapse;width:100%}td,th{padding:9px;border-bottom:1px solid #ddd;text-align:left}.diff{background:#eef2ff}
+/* v10 polish: explicit view layouts */
+.grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid.list{display:grid!important;grid-template-columns:1fr!important}
+.grid.list .card{display:grid!important;grid-template-columns:minmax(220px,260px) 1fr}
+@media(max-width:700px){.grid.list .card{display:block!important}.grid.list .photo{height:180px!important;min-height:0!important}}
+.light .card{background:var(--panel);color:var(--text)}
+.light .market{background:var(--panel)}
+.light .toolbar{background:rgba(255,255,255,.94)}
+.light .nav .active,.light .viewbar .btn.active,.light .seg button.active{background:#e6ecff;color:#20356f;border-color:#b8c7ef}
+.light .meta{color:#53627d}
+.light .line strong{color:#263653}
+.light .features{border-color:var(--line)}
+.light .badge{background:#f3f6fb;color:#53627d}
+.light .tag{background:#f3f6fb;color:#34435f}
+.light .progress{background:#e5eaf2}
+.light .photoLink{color:#fff;background:rgba(15,23,42,.9)}
+.light .note{background:#fff;color:var(--text)}
+.light .btn.primary{color:#fff}
+.light .small{color:var(--muted)}
+</style><h1>Differences only</h1><table><tr><th>Feature</th>${a.map(p=>`<th>${esc(p.name)}</th>`).join('')}</tr>${diff.map(([k,f])=>`<tr><th>${k}</th>${a.map(p=>`<td class="diff">${esc(f(p))}</td>`).join('')}</tr>`).join('')}</table>`);w.document.close()}
  // nav
  const nav=document.querySelector('.nav'); if(nav&&!document.querySelector('[data-tab="hub"]')){const b=document.createElement('button');b.className='btn';b.dataset.tab='hub';b.textContent='🏠 My Search';nav.appendChild(b);b.onclick=()=>{setTab('hub');renderHub()}}
  const oldSetTab=setTab; setTab=function(tab){if(tab==='hub'){document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab==='hub'));['homes','favourites','viewings','compare','market','quality'].forEach(x=>$('#'+x+'Tab').classList.add('hidden'));$('#personalHubTab').style.display='block';renderHub();window.scrollTo({top:0,behavior:'smooth'});return}$('#personalHubTab').style.display='none';oldSetTab(tab)};
