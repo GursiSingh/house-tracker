@@ -1,4 +1,4 @@
-name: House Tracker — scheduled update
+name: House Tracker — weekly discovery and update
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-property-sources:
+  update-house-tracker:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -25,17 +25,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check tracked listing sources
+      - name: Check tracked listing sources and price history
         run: python scripts/update_property_sources.py
 
-      - name: Commit source-check results
+      - name: Discover new property candidates
+        run: python scripts/discover_properties.py
+
+      - name: Audit public repository data
+        run: python scripts/audit_public_data.py
+
+      - name: Commit weekly tracker results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add properties.json data/update_history.json
+          git add properties.json data/update_history.json data/discovery_history.json
           if git diff --cached --quiet; then
-            echo "No source-check changes to commit."
+            echo "No tracker changes to commit."
           else
-            git commit -m "chore: update house tracker source checks"
+            git commit -m "chore: weekly house tracker discovery and source checks"
             git push
           fi
