@@ -15,6 +15,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import urljoin
 from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,6 +78,26 @@ def price(body: str):
     return None
 
 
+def image_url(body: str, base_url: str):
+    # Prefer an OpenGraph image published by the exact listing page.
+    value = meta(body, "og:image") or meta(body, "twitter:image")
+    if value:
+        return urljoin(base_url, value)
+    # Conservative fallback: an image tag whose alt/title explicitly identifies a
+    # floorplan is used for the floorplan field, not as a property photo.
+    return None
+
+def floorplan_url(body: str, base_url: str):
+    patterns = [
+        r'<img[^>]+(?:alt|title)=["\'][^"\']*floor ?plan[^"\']*["\'][^>]+src=["\']([^"\']+)',
+        r'<img[^>]+src=["\']([^"\']+)["\'][^>]+(?:alt|title)=["\'][^"\']*floor ?plan[^"\']*["\']',
+    ]
+    for pat in patterns:
+        m=re.search(pat,body,re.I)
+        if m:
+            return urljoin(base_url,html.unescape(m.group(1)))
+    return None
+
 def main():
     data = json.loads(PROPERTIES.read_text(encoding="utf-8"))
     now = datetime.now(timezone.utc).isoformat()
@@ -91,6 +112,8 @@ def main():
         status, body, error = fetch(url)
         t = title(body) if body else None
         observed_price = price(body) if body else None
+        preview = image_url(body, url) if body else None
+        floorplan = floorplan_url(body, url) if body else None
         tr = item.setdefault("tracking", {})
         old_price = tr.get("observedPrice")
         tr["lastChecked"] = now
@@ -98,6 +121,13 @@ def main():
         tr["sourceReachable"] = bool(status and 200 <= status < 400)
         tr["observedTitle"] = t
         tr["observedPrice"] = observed_price
+        tr["previewImage"] = preview
+        if preview:
+            item.setdefault("media", {})["photos"] = [preview]
+            item["media"]["photoSource"] = url
+            item["media"]["photoVerifiedAt"] = now
+        if floorplan:
+            item.setdefault("media", {})["floorplan"] = {"url": floorplan, "source": url, "verifiedAt": now}
         tr["priceChanged"] = bool(old_price and observed_price and old_price != observed_price)
         note = ""
         if tr["priceChanged"]:
