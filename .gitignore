@@ -1,0 +1,4 @@
+house-tracker-backup*.json
+house-tracker-personal-hub*.json
+*.local.json
+.DS_Store
