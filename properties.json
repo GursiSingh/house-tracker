@@ -46,13 +46,20 @@
     "verification": "High for listing facts supplied; solar/EV and current status still need checking.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
+      "observedPrice": 350000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://media.rightmove.co.uk/property-photo/e70f46f15/92480259/e70f46f157dc9322f2d1feaaac11a11c.jpeg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 350000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Rosedale, 1A Carter Avenue Codsall, WV8 property for sale",
@@ -72,10 +79,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.rightmove.co.uk/property-photo/e70f46f15/92480259/e70f46f157dc9322f2d1feaaac11a11c.jpeg"
+      ],
       "galleryUrl": "https://www.rightmove.co.uk/properties/92480259",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://media.rightmove.co.uk/dir/property-floorplan/427c6bf6e/92480259/427c6bf6e3b18691c88ba6fcbe8e900f_max_296x197.jpeg",
+        "source": "https://www.rightmove.co.uk/properties/92480259",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.rightmove.co.uk/properties/92480259",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -113,13 +128,20 @@
     "verification": "Core listing facts previously verified; current availability and garden detail need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
+      "observedPrice": 250000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://media.rightmove.co.uk/property-photo/72ee87f93/93427674/72ee87f93d86f74ad20df2b78ce55bc9.jpeg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 250000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Perch Road Walsall property for sale",
@@ -131,10 +153,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.rightmove.co.uk/property-photo/72ee87f93/93427674/72ee87f93d86f74ad20df2b78ce55bc9.jpeg"
+      ],
       "galleryUrl": "https://www.rightmove.co.uk/properties/93427674",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://media.rightmove.co.uk/dir/property-floorplan/425785e9a/93427674/425785e9af796f94e61378d1681a504a_max_296x197.jpeg",
+        "source": "https://www.rightmove.co.uk/properties/93427674",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.rightmove.co.uk/properties/93427674",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -172,13 +202,20 @@
     "verification": "Garden/parking details are from earlier listing research; availability must be rechecked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "3 bedroom detached house for sale in Wolverhampton West Midlands | Purplebricks",
+      "observedPrice": 320000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://purplebricks-properties.imgix.net/a39db4ab-dea5-4e2f-a86d-176552336d14.JPG?auto=format&w=1200&h=630&q=70&fit=crop&fill=solid&fill-color=000000",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 320000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Derwent Road, Palmers Cross Wolverhampton, WV6 9ET property for sale",
@@ -190,10 +227,14 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://purplebricks-properties.imgix.net/a39db4ab-dea5-4e2f-a86d-176552336d14.JPG?auto=format&w=1200&h=630&q=70&fit=crop&fill=solid&fill-color=000000"
+      ],
       "galleryUrl": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-detached-house-wolverhampton-910771",
       "floorplan": null,
-      "plotplan": null
+      "plotplan": null,
+      "photoSource": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-detached-house-wolverhampton-910771",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -237,13 +278,20 @@
     "verification": "Feature set previously verified; live plot status, garden dimensions and incentives need current confirmation.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Bloomfield Road, Tipton 3 bed detached house for sale - £300,000",
+      "observedPrice": 300000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://media.onthemarket.com/properties/20195082/1639276559/image-0-1024x1024.jpg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 300000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Bloomfield Road — Plot 19, The Fairford Tipton property for sale",
@@ -259,10 +307,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.onthemarket.com/properties/20195082/1639276559/image-0-1024x1024.jpg"
+      ],
       "galleryUrl": "https://www.onthemarket.com/details/20195082/",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://www.onthemarket.com/assets/images/floorplanbg.png",
+        "source": "https://www.onthemarket.com/details/20195082/",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.onthemarket.com/details/20195082/",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -300,13 +356,20 @@
     "verification": "Core feature set previously verified; current availability and garden detail need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
+      "observedPrice": 330000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://media.rightmove.co.uk/property-photo/7b2af429a/93224265/7b2af429a116af3d886f2e1e65fac3c3.jpeg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 330000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "The Woodlands — Plot 122, The Larch Lightmoor Village, Telford property for sale",
@@ -318,10 +381,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.rightmove.co.uk/property-photo/7b2af429a/93224265/7b2af429a116af3d886f2e1e65fac3c3.jpeg"
+      ],
       "galleryUrl": "https://www.rightmove.co.uk/properties/93224265",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://media.rightmove.co.uk/dir/property-floorplan/73596dc27/93224265/73596dc27d8ce58fb8165ad1b3a187f6_max_296x197.jpeg",
+        "source": "https://www.rightmove.co.uk/properties/93224265",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.rightmove.co.uk/properties/93224265",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -364,13 +435,14 @@
     "verification": "Development feature set previously verified; plot/garden/current price need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": false,
+      "httpStatus": 403,
+      "observedTitle": "Just a moment...",
       "observedPrice": null,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "Source returned 403; availability not inferred.",
+      "previewImage": null
     },
     "images": [],
     "imageSearch": "Alba Gardens, Rookery Road Wolverhampton, WV4 property for sale",
@@ -428,13 +500,20 @@
     "verification": "Development-level features previously verified; exact plot availability and garden/parking must be checked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "3 bedroom property in Canalside South, Qualcast Road, Wolverhampton - From £295,000 | Connells",
+      "observedPrice": 295000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://mr0.homeflow-assets.co.uk/files/photo/image/46790/7981/_x_/WVH33480112.jpg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 295000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Canalside South — 3-bed new-build phase Wolverhampton property for sale",
@@ -446,10 +525,14 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://mr0.homeflow-assets.co.uk/files/photo/image/46790/7981/_x_/WVH33480112.jpg"
+      ],
       "galleryUrl": "https://www.connells.co.uk/properties/21499318/sales",
       "floorplan": null,
-      "plotplan": null
+      "plotplan": null,
+      "photoSource": "https://www.connells.co.uk/properties/21499318/sales",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -492,13 +575,20 @@
     "verification": "Feature set previously verified; live status must be rechecked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": false,
+      "httpStatus": 410,
+      "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
+      "observedPrice": 300000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "Source returned 410; availability not inferred.",
+      "previewImage": "https://media.rightmove.co.uk/property-photo/865e8ec7c/165325877/865e8ec7c76f627f351e679477dd8428.jpeg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 300000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Pond Lane Wolverhampton, WV2 property for sale",
@@ -514,10 +604,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.rightmove.co.uk/property-photo/865e8ec7c/165325877/865e8ec7c76f627f351e679477dd8428.jpeg"
+      ],
       "galleryUrl": "https://www.rightmove.co.uk/properties/165325877",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://media.rightmove.co.uk/dir/property-floorplan/5ca707839/165325877/5ca70783908c73e0be3cdd8c82576742_max_296x197.jpeg",
+        "source": "https://www.rightmove.co.uk/properties/165325877",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.rightmove.co.uk/properties/165325877",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -555,13 +653,20 @@
     "verification": "Feature set previously recorded; live status and exact garden details need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Brook House Lane, Featherstone, Wolverhampton - Webbs Estate Agents",
+      "observedPrice": 300000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://www.webbsestateagents.co.uk/content/uploads/2026/04/aCfYyjJAoUGXhIfJgU-Gkw.jpg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 300000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Brook House Lane Featherstone, Wolverhampton property for sale",
@@ -573,10 +678,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://www.webbsestateagents.co.uk/content/uploads/2026/04/aCfYyjJAoUGXhIfJgU-Gkw.jpg"
+      ],
       "galleryUrl": "https://www.webbsestateagents.co.uk/property/brook-house-lane-featherstone-wolverhampton/",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://alto-live.s3.amazonaws.com/EDCcvigApnk0N1SqmWiLrIhPn6w/Snyfk_JBcYf4FAeebEejJxqqe5M/Floorplan/[3]/_gGVKzsFXEunkYb5-Ho6cg.png",
+        "source": "https://www.webbsestateagents.co.uk/property/brook-house-lane-featherstone-wolverhampton/",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.webbsestateagents.co.uk/property/brook-house-lane-featherstone-wolverhampton/",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -615,13 +728,20 @@
     "verification": "Older listing; treat availability as unconfirmed.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Check out this 3 bedroom bungalow for sale on Rightmove",
+      "observedPrice": 265000,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://media.rightmove.co.uk/property-photo/b8b16af27/88349004/b8b16af274e0956d352387caaac41108.jpeg",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 265000
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Vernon Avenue Brownhills, Walsall property for sale",
@@ -633,10 +753,14 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://media.rightmove.co.uk/property-photo/b8b16af27/88349004/b8b16af274e0956d352387caaac41108.jpeg"
+      ],
       "galleryUrl": "https://www.rightmove.co.uk/properties/88349004",
       "floorplan": null,
-      "plotplan": null
+      "plotplan": null,
+      "photoSource": "https://www.rightmove.co.uk/properties/88349004",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -679,13 +803,20 @@
     "verification": "Development is current in tracker; exact price/features/availability can change.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Plot 886 at Burleyfields in Stafford ‧ Taylor Wimpey",
+      "observedPrice": 318500,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://www.taylorwimpey.co.uk/-/twdxmedia/Images/National/Modules/Article-Hero/Exteriors/TWMAN_Half_Penny_Meadows_Whitford_Gosfords.jpg?mh=1200&la=en&h=1200&mw=1800&w=1800&hash=3500903B5EA973A4D229F75C111F0DAC",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 318500
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Burleyfields — 3-bed detached plots Stafford property for sale",
@@ -701,10 +832,18 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://www.taylorwimpey.co.uk/-/twdxmedia/Images/National/Modules/Article-Hero/Exteriors/TWMAN_Half_Penny_Meadows_Whitford_Gosfords.jpg?mh=1200&la=en&h=1200&mw=1800&w=1800&hash=3500903B5EA973A4D229F75C111F0DAC"
+      ],
       "galleryUrl": "https://www.taylorwimpey.co.uk/new-homes/stafford/burleyfields/plot-886",
-      "floorplan": null,
-      "plotplan": null
+      "floorplan": {
+        "url": "https://www.taylorwimpey.co.uk/-/twdxmedia/Images/Business-Units/West-Midlands/Sales/PH4-Burleyfields/Web---Floorplans/ETT31-Aynesdale-GF.png?mw=1800&hash=2CF072A89E55854ECF7D3D736C5A7008",
+        "source": "https://www.taylorwimpey.co.uk/new-homes/stafford/burleyfields/plot-886",
+        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      },
+      "plotplan": null,
+      "photoSource": "https://www.taylorwimpey.co.uk/new-homes/stafford/burleyfields/plot-886",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -747,13 +886,20 @@
     "verification": "House-type features recorded; exact plot availability/pricing must be verified.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
-      "observedPrice": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "New Detached home for sale in Stafford, Staffordshire from Bellway Homes",
+      "observedPrice": 219995,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://cms.bellway.co.uk/media/resized-images/division/west-midlands/victoria-gate/CGIs/_large/2522265/Thespian-1.webp",
+      "priceHistory": [
+        {
+          "date": "2026-09-27",
+          "price": 219995
+        }
+      ]
     },
     "images": [],
     "imageSearch": "Victoria Gate — Thespian/Mason 3-bed detached types Stafford property for sale",
@@ -769,10 +915,14 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://cms.bellway.co.uk/media/resized-images/division/west-midlands/victoria-gate/CGIs/_large/2522265/Thespian-1.webp"
+      ],
       "galleryUrl": "https://www.bellway.co.uk/new-homes/west-midlands/victoria-gate/the-thespian-3-bedroom-detached-home",
       "floorplan": null,
-      "plotplan": null
+      "plotplan": null,
+      "photoSource": "https://www.bellway.co.uk/new-homes/west-midlands/victoria-gate/the-thespian-3-bedroom-detached-home",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   },
   {
@@ -810,13 +960,14 @@
     "verification": "Future development; no current suitable plot is claimed.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": null,
-      "sourceReachable": null,
-      "httpStatus": null,
-      "observedTitle": null,
+      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "sourceReachable": true,
+      "httpStatus": 200,
+      "observedTitle": "Florent Gardens | New houses for sale in Albrighton | Persimmon Homes",
       "observedPrice": null,
       "priceChanged": false,
-      "changeNote": ""
+      "changeNote": "",
+      "previewImage": "https://www.persimmonhomes.com/media/os0ly03c/persimmon-logo-2022.png"
     },
     "images": [],
     "imageSearch": "Florent Gardens Albrighton property for sale",
@@ -828,10 +979,14 @@
       }
     ],
     "media": {
-      "photos": [],
+      "photos": [
+        "https://www.persimmonhomes.com/media/os0ly03c/persimmon-logo-2022.png"
+      ],
       "galleryUrl": "https://www.persimmonhomes.com/new-homes/west-midlands/florent-gardens",
       "floorplan": null,
-      "plotplan": null
+      "plotplan": null,
+      "photoSource": "https://www.persimmonhomes.com/new-homes/west-midlands/florent-gardens",
+      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
     }
   }
 ]
