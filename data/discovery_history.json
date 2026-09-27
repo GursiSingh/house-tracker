@@ -1,5 +1,14 @@
 {
-  "lastRun": null,
-  "runs": [],
+  "lastRun": "2026-09-27T20:04:03.103499+00:00",
+  "runs": [
+    {
+      "timestamp": "2026-09-27T20:04:03.103499+00:00",
+      "queries": 96,
+      "successfulQueries": 51,
+      "failedQueries": 45,
+      "newCandidates": 0,
+      "status": "ok"
+    }
+  ],
   "candidates": []
 }
