@@ -46,7 +46,7 @@
     "verification": "High for listing facts supplied; solar/EV and current status still need checking.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
@@ -86,11 +86,11 @@
       "floorplan": {
         "url": "https://media.rightmove.co.uk/dir/property-floorplan/427c6bf6e/92480259/427c6bf6e3b18691c88ba6fcbe8e900f_max_296x197.jpeg",
         "source": "https://www.rightmove.co.uk/properties/92480259",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.rightmove.co.uk/properties/92480259",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -128,7 +128,7 @@
     "verification": "Core listing facts previously verified; current availability and garden detail need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
@@ -160,11 +160,11 @@
       "floorplan": {
         "url": "https://media.rightmove.co.uk/dir/property-floorplan/425785e9a/93427674/425785e9af796f94e61378d1681a504a_max_296x197.jpeg",
         "source": "https://www.rightmove.co.uk/properties/93427674",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.rightmove.co.uk/properties/93427674",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -202,7 +202,7 @@
     "verification": "Garden/parking details are from earlier listing research; availability must be rechecked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "3 bedroom detached house for sale in Wolverhampton West Midlands | Purplebricks",
@@ -234,7 +234,7 @@
       "floorplan": null,
       "plotplan": null,
       "photoSource": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-detached-house-wolverhampton-910771",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -278,7 +278,7 @@
     "verification": "Feature set previously verified; live plot status, garden dimensions and incentives need current confirmation.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Bloomfield Road, Tipton 3 bed detached house for sale - £300,000",
@@ -314,11 +314,11 @@
       "floorplan": {
         "url": "https://www.onthemarket.com/assets/images/floorplanbg.png",
         "source": "https://www.onthemarket.com/details/20195082/",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.onthemarket.com/details/20195082/",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -356,7 +356,7 @@
     "verification": "Core feature set previously verified; current availability and garden detail need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
@@ -388,11 +388,11 @@
       "floorplan": {
         "url": "https://media.rightmove.co.uk/dir/property-floorplan/73596dc27/93224265/73596dc27d8ce58fb8165ad1b3a187f6_max_296x197.jpeg",
         "source": "https://www.rightmove.co.uk/properties/93224265",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.rightmove.co.uk/properties/93224265",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -435,7 +435,7 @@
     "verification": "Development feature set previously verified; plot/garden/current price need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": false,
       "httpStatus": 403,
       "observedTitle": "Just a moment...",
@@ -500,18 +500,22 @@
     "verification": "Development-level features previously verified; exact plot availability and garden/parking must be checked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
-      "observedTitle": "3 bedroom property in Canalside South, Qualcast Road, Wolverhampton - From £295,000 | Connells",
-      "observedPrice": 295000,
-      "priceChanged": false,
-      "changeNote": "",
-      "previewImage": "https://mr0.homeflow-assets.co.uk/files/photo/image/46790/7981/_x_/WVH33480112.jpg",
+      "observedTitle": "All  properties for sale",
+      "observedPrice": 100000,
+      "priceChanged": true,
+      "changeNote": "Observed source price changed from £295,000 to £100,000; verify listing manually.",
+      "previewImage": "https://mr0.homeflow-assets.co.uk/files/site_asset/image/7023/2430/_x_/1111ConnellsAnniversaryLogo026.png",
       "priceHistory": [
         {
           "date": "2026-09-27",
           "price": 295000
+        },
+        {
+          "date": "2026-10-04",
+          "price": 100000
         }
       ]
     },
@@ -526,13 +530,13 @@
     ],
     "media": {
       "photos": [
-        "https://mr0.homeflow-assets.co.uk/files/photo/image/46790/7981/_x_/WVH33480112.jpg"
+        "https://mr0.homeflow-assets.co.uk/files/site_asset/image/7023/2430/_x_/1111ConnellsAnniversaryLogo026.png"
       ],
       "galleryUrl": "https://www.connells.co.uk/properties/21499318/sales",
       "floorplan": null,
       "plotplan": null,
       "photoSource": "https://www.connells.co.uk/properties/21499318/sales",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -575,7 +579,7 @@
     "verification": "Feature set previously verified; live status must be rechecked.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": false,
       "httpStatus": 410,
       "observedTitle": "Check out this 3 bedroom detached house for sale on Rightmove",
@@ -611,11 +615,11 @@
       "floorplan": {
         "url": "https://media.rightmove.co.uk/dir/property-floorplan/5ca707839/165325877/5ca70783908c73e0be3cdd8c82576742_max_296x197.jpeg",
         "source": "https://www.rightmove.co.uk/properties/165325877",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.rightmove.co.uk/properties/165325877",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -653,7 +657,7 @@
     "verification": "Feature set previously recorded; live status and exact garden details need recheck.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Brook House Lane, Featherstone, Wolverhampton - Webbs Estate Agents",
@@ -685,11 +689,11 @@
       "floorplan": {
         "url": "https://alto-live.s3.amazonaws.com/EDCcvigApnk0N1SqmWiLrIhPn6w/Snyfk_JBcYf4FAeebEejJxqqe5M/Floorplan/[3]/_gGVKzsFXEunkYb5-Ho6cg.png",
         "source": "https://www.webbsestateagents.co.uk/property/brook-house-lane-featherstone-wolverhampton/",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.webbsestateagents.co.uk/property/brook-house-lane-featherstone-wolverhampton/",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -728,7 +732,7 @@
     "verification": "Older listing; treat availability as unconfirmed.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Check out this 3 bedroom bungalow for sale on Rightmove",
@@ -760,7 +764,7 @@
       "floorplan": null,
       "plotplan": null,
       "photoSource": "https://www.rightmove.co.uk/properties/88349004",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -803,7 +807,7 @@
     "verification": "Development is current in tracker; exact price/features/availability can change.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Plot 886 at Burleyfields in Stafford ‧ Taylor Wimpey",
@@ -839,11 +843,11 @@
       "floorplan": {
         "url": "https://www.taylorwimpey.co.uk/-/twdxmedia/Images/Business-Units/West-Midlands/Sales/PH4-Burleyfields/Web---Floorplans/ETT31-Aynesdale-GF.png?mw=1800&hash=2CF072A89E55854ECF7D3D736C5A7008",
         "source": "https://www.taylorwimpey.co.uk/new-homes/stafford/burleyfields/plot-886",
-        "verifiedAt": "2026-09-27T20:10:51.687946+00:00"
+        "verifiedAt": "2026-10-04T12:04:31.715254+00:00"
       },
       "plotplan": null,
       "photoSource": "https://www.taylorwimpey.co.uk/new-homes/stafford/burleyfields/plot-886",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -886,7 +890,7 @@
     "verification": "House-type features recorded; exact plot availability/pricing must be verified.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "New Detached home for sale in Stafford, Staffordshire from Bellway Homes",
@@ -922,7 +926,7 @@
       "floorplan": null,
       "plotplan": null,
       "photoSource": "https://www.bellway.co.uk/new-homes/west-midlands/victoria-gate/the-thespian-3-bedroom-detached-home",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   },
   {
@@ -960,7 +964,7 @@
     "verification": "Future development; no current suitable plot is claimed.",
     "updated": "2026-09-27",
     "tracking": {
-      "lastChecked": "2026-09-27T20:10:51.687946+00:00",
+      "lastChecked": "2026-10-04T12:04:31.715254+00:00",
       "sourceReachable": true,
       "httpStatus": 200,
       "observedTitle": "Florent Gardens | New houses for sale in Albrighton | Persimmon Homes",
@@ -986,7 +990,7 @@
       "floorplan": null,
       "plotplan": null,
       "photoSource": "https://www.persimmonhomes.com/new-homes/west-midlands/florent-gardens",
-      "photoVerifiedAt": "2026-09-27T20:10:51.687946+00:00"
+      "photoVerifiedAt": "2026-10-04T12:04:31.715254+00:00"
     }
   }
 ]
