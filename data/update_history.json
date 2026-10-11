@@ -1,7 +1,33 @@
 {
-  "lastRun": "2026-10-04T12:04:31.715254+00:00",
+  "lastRun": "2026-10-11T12:26:59.449326+00:00",
   "schedule": "Weekly — Sunday 07:00 Europe/London",
   "runs": [
+    {
+      "timestamp": "2026-10-11T12:26:59.449326+00:00",
+      "checked": 13,
+      "changes": [
+        {
+          "id": "alba-gardens-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 403; availability not inferred."
+        },
+        {
+          "id": "canalside-south-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 403; availability not inferred."
+        },
+        {
+          "id": "pond-lane-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 410; availability not inferred."
+        },
+        {
+          "id": "burleyfields-stafford",
+          "type": "observed_price_change",
+          "note": "Observed source price changed from £318,500 to £225,000; verify listing manually."
+        }
+      ]
+    },
     {
       "timestamp": "2026-10-04T12:04:31.715254+00:00",
       "checked": 13,
