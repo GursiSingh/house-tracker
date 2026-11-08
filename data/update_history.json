@@ -1,7 +1,33 @@
 {
-  "lastRun": "2026-11-01T14:10:15.642558+00:00",
+  "lastRun": "2026-11-08T14:10:39.060301+00:00",
   "schedule": "Weekly — Sunday 07:00 Europe/London",
   "runs": [
+    {
+      "timestamp": "2026-11-08T14:10:39.060301+00:00",
+      "checked": 13,
+      "changes": [
+        {
+          "id": "carter-avenue-codsal",
+          "type": "source_check",
+          "note": "Source returned 410; availability not inferred."
+        },
+        {
+          "id": "alba-gardens-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 403; availability not inferred."
+        },
+        {
+          "id": "canalside-south-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 403; availability not inferred."
+        },
+        {
+          "id": "pond-lane-wolverhampton",
+          "type": "source_check",
+          "note": "Source returned 410; availability not inferred."
+        }
+      ]
+    },
     {
       "timestamp": "2026-11-01T14:10:15.642558+00:00",
       "checked": 13,
